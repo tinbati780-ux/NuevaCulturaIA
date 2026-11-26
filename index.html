@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nueva Cultura - Santa Fe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <h1 class="site-title">Nueva Cultura</h1>
+      <p class="site-tag">Autonomía e inclusión para personas con discapacidad visual — Santa Fe</p>
+      <nav class="main-nav" aria-label="Menú principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menú</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#que-hacemos">Qué hacemos</a></li>
+          <li><a href="#colabora">Colaborá</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+
+    <section id="inicio" class="hero" aria-labelledby="inicio-title">
+      <h2 id="inicio-title">Bienvenidos a Nueva Cultura</h2>
+      <p>Somos una ONG de Santa Fe dedicada a promover la autonomía e inclusión de personas con discapacidad visual.</p>
+      <p class="hero-cta"><a class="btn-primary" href="#colabora" id="donar-cta">Colaborar — Donar</a></p>
+    </section>
+
+    <section id="quienes" class="about" aria-labelledby="quienes-title">
+      <h2 id="quienes-title">Quiénes somos</h2>
+      <article>
+        <h3>Historia y misión</h3>
+        <p>Nacida en 1994 en Santa Fe, Nueva Cultura acompaña a personas ciegas, con baja visión y a sus familias, fomentando autonomía, integración social y calidad de vida.</p>
+      </article>
+      <article>
+        <h3>A quiénes ayudamos</h3>
+        <p>Atendemos a personas con discapacidad visual de todas las edades y contamos con programas de estimulación temprana para niños.</p>
+      </article>
+      <article>
+        <h3>Equipo</h3>
+        <p>Contamos con profesionales y voluntarios: psicopedagogas, terapeutas, y estudiantes que trabajan en tareas de autonomía, memoria y acompañamiento.</p>
+      </article>
+    </section>
+
+    <section id="que-hacemos" class="services" aria-labelledby="que-title">
+      <h2 id="que-title">Qué hacemos</h2>
+      <ul class="services-list">
+        <li>
+          <h3>Rehabilitación integral</h3>
+          <p>Programas de rehabilitación para recuperar y potenciar habilidades de autonomía personal.</p>
+        </li>
+        <li>
+          <h3>Centro de baja visión</h3>
+          <p>Evaluación y adaptación de ayudas ópticas y no ópticas para mejorar la funcionalidad visual.</p>
+        </li>
+        <li>
+          <h3>Centro de día</h3>
+          <p>Actividades diarias, talleres y apoyo social para personas adultas.</p>
+        </li>
+        <li>
+          <h3>Estimulación temprana</h3>
+          <p>Programas para bebés y niños que buscan potenciar el desarrollo sensorial y motor.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="colabora" class="donate" aria-labelledby="colabora-title">
+      <h2 id="colabora-title">Colaborá</h2>
+      <p>Tu aporte sostiene nuestros programas. Formas de ayudar:</p>
+      <ul>
+        <li>Donaciones económicas (únicas o mensuales).</li>
+        <li>Donación de materiales y alimentos.</li>
+        <li>Voluntariado y hacerse socio.</li>
+        <li>Difusión en redes y apoyo empresarial.</li>
+      </ul>
+      <p>La organización se sostiene mediante obras sociales, donaciones y campañas públicas y privadas.</p>
+
+      <div class="donation-options">
+        <h3 id="donaciones">Donaciones</h3>
+        <form id="donation-form" aria-labelledby="donaciones" novalidate>
+          <label for="amount">Monto (ARS)</label>
+          <input id="amount" name="amount" type="number" min="1" required aria-required="true">
+
+          <label for="frequency">Frecuencia</label>
+          <select id="frequency" name="frequency">
+            <option value="once">Única</option>
+            <option value="monthly">Mensual</option>
+          </select>
+
+          <button type="submit" class="btn-primary">Contribuir</button>
+        </form>
+        <div id="donation-message" aria-live="polite" class="sr-only" role="status"></div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="testimonials" aria-labelledby="testi-title">
+      <h2 id="testi-title">Testimonios</h2>
+      <ul class="testimonials-list">
+        <li class="testimonial-card">
+          <blockquote>
+            "Gracias a Nueva Cultura recuperé confianza y habilidades para moverme de forma autónoma." — Participante
+          </blockquote>
+        </li>
+        <li class="testimonial-card">
+          <blockquote>
+            "Voluntariar aquí me cambió la vida; el equipo es cálido y profesional." — Voluntario
+          </blockquote>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="contact" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto</h2>
+      <address>
+        <p>Dirección: Av. Ejemplo 123, Santa Fe</p>
+        <p>Teléfono: (0342) 123-4567</p>
+        <p>Redes: <a href="#" aria-label="Enlace a Facebook" rel="noopener">Facebook</a> · <a href="#" aria-label="Enlace a Instagram" rel="noopener">Instagram</a></p>
+      </address>
+
+      <form id="contact-form" aria-labelledby="contacto-title">
+        <div class="form-row">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" required aria-required="true">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required aria-required="true">
+        </div>
+        <div class="form-row">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+      <div id="contact-status" aria-live="polite" class="sr-only" role="status"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© Nueva Cultura — Santa Fe. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
